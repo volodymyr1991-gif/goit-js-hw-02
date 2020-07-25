@@ -24,4 +24,4 @@ for (let i = 0; i < numbers.length; i += 1) {
 }
 
 
-alert(total);
+alert(`Загальна сума чисел дорівнює ${total}`);

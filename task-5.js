@@ -12,7 +12,7 @@ const checkForSpams = function (message) {
   }
   return false;
 };
-console.log(checkForSpams("Get best sale offers now!"));
+console.log(checkForSpams("Get best sale offers now!")); // true
 
 console.log(checkForSpams("Latest technology news")); // false
 

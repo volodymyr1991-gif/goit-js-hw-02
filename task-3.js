@@ -1,5 +1,3 @@
-
-
 const findLongestWord = function (string){
   string=string.split(' ');
   let longesWord=string[0];
@@ -23,3 +21,4 @@ const findLongestWord = function (string){
   console.log(findLongestWord('Google do a roll')); // 'Google'
   
   console.log(findLongestWord('May the force be with you')); // 'force'
+
